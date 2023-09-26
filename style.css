@@ -1,0 +1,174 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
+
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url('../images/header_bg.png');
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.textline{
+    color: red;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+
+font-size: 45px;
+
+font-weight: 800;
+line-height: normal;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 0 50px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerContain{
+    max-width: 500px;
+    margin-bottom: 130px 0;
+   
+}
+.btn{
+ border-radius: 5px;
+background: #FD6E0A;
+width: 100px;
+height: 34px;
+color: white;
+border: none;
+}
+
+.imges{
+width: 500px;
+
+
+}
+.texthi{
+    font-size: 45px;
+    margin-bottom: 0px;
+
+   
+
+}
+.texth1{
+    font-size: 50px;
+ 
+    margin: 5px;
+
+}
+/* .texth2{
+    margin: 5px;
+
+}
+.textp{
+    margin: 20px;
+
+} */
+
+main{
+    max-width: 1200px;
+   margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+.about{
+    padding: 140px;
+    border-radius: 10px;
+    background: #60625d;
+    color: beige;
+   
+
+}
+.section-title{
+ color:  #faf1f1;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+
+.sec-title{
+    text-align: center;
+}
+#sceid{
+    padding: 30px 150px;
+
+}
+.skils-container{
+    display: flex;
+    gap: 10px;
+
+}
+.sec-title{
+
+text-align: center;
+
+font-size: 35px;
+font-weight: 700;
+
+
+
+}
+.skill{
+padding: 30px;
+border-radius: 5px;
+background: #c20707;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+color: azure;
+
+}
+
+
+
+
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 140px 200px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    background-color: fuchsia;
+  
+
+}
+
+.contact input, textarea{
+    display: block;
+    margin-bottom: 50px;
+    padding: 18px 35px;
+
+}
